@@ -1,0 +1,33 @@
+body {
+    background-color: aqua;
+}
+
+/* Extra Small Devices (Phones) */
+@media (max-width: 599px) {
+  /* Styles for devices up to 599px */
+}
+
+/* Small Devices (Tablets, Small Phones) */
+@media (min-width: 600px) and (max-width: 767px) {
+  /* Styles for devices between 600px and 767px */
+}
+
+/* Medium Devices (Tablets, Small Desktops) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Styles for devices between 768px and 991px */
+}
+
+/* Large Devices (Desktops, Laptops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Styles for devices between 992px and 1199px */
+}
+
+/* Extra Large Devices (Large Desktops) */
+@media (min-width: 1200px) {
+  /* Styles for devices 1200px and up */
+}
+
+/* Ultra-Wide Screens */
+@media (min-width: 1600px) {
+  /* Styles for devices 1600px and up */
+}
