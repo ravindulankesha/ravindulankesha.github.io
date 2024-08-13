@@ -1,10 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
 body {
-    background-color: aqua;
+    background-color: #222222;
+}
+
+.text {
+    position: absolute;
+    font-family: 'Lalezar';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
 }
 
 /* Extra Small Devices (Phones) */
 @media (max-width: 599px) {
-  /* Styles for devices up to 599px */
+    .ellipse {
+        position: absolute;
+        width: 388px;
+        height: 145px;
+        left: -109px;
+        top: -93px;
+
+        background: linear-gradient(180deg, #881010 57.9%, #EE1C1C 92.4%);
+        border-radius: 500px 1000px 1500px 500px;
+    }
+
+    .text{
+        width: 214px;
+        height: 31px;
+        left: 12px;
+        top: 14px;
+        font-size: 20px;
+        line-height: 31px;
+        color: #FFFFFF;
+    }
+
 }
 
 /* Small Devices (Tablets, Small Phones) */
@@ -14,20 +44,78 @@ body {
 
 /* Medium Devices (Tablets, Small Desktops) */
 @media (min-width: 768px) and (max-width: 991px) {
-  /* Styles for devices between 768px and 991px */
+    .ellipse {
+        position: absolute;
+        width: 561px;
+        height: 276px;
+        left: -127px;
+        top: -176px;
+        background: linear-gradient(180deg, #881010 65%, #EE1C1C 92%);
+        border-radius: 500px 1000px 1500px 500px;
+    }
+    
+    .text {
+        width: 341px;
+        height: 50px;
+        left: 22px;
+        top: 26px;
+        font-size: 32px;
+        line-height: 50px;
+    }
 }
 
 /* Large Devices (Desktops, Laptops) */
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* Styles for devices between 992px and 1199px */
+@media (min-width: 992px){
+    .ellipse {
+        position: absolute;
+        width: 561px;
+        height: 276px;
+        left: -127px;
+        top: -176px;
+        background: linear-gradient(180deg, #881010 65%, #EE1C1C 92%);
+        border-radius: 500px 1000px 1500px 500px;
+    }
+    
+    
+    .text {
+        position: absolute;
+        width: 341px;
+        height: 50px;
+        left: 22px;
+        top: 26px;
+        font-size: 32px;
+        line-height: 50px;
+    }
 }
 
-/* Extra Large Devices (Large Desktops) */
-@media (min-width: 1200px) {
-  /* Styles for devices 1200px and up */
+/* Extra Large Devices (Large Desktops)
+@media (min-width: 1200px) and (max-width: 1599px) {
+    .ellipse {
+        position: absolute;
+        width: 561px;
+        height: 276px;
+        left: -127px;
+        top: -176px;
+        background: linear-gradient(180deg, #881010 65%, #EE1C1C 92%);
+        border-radius: 500px 1000px 1500px 500px;
+    }
+    
+    
+    .text {
+        position: absolute;
+        width: 341px;
+        height: 50px;
+        left: 22px;
+        top: 26px;
+        font-family: 'Lalezar';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 50px;
+        color: #FFFFFF;
+    }
 }
 
 /* Ultra-Wide Screens */
-@media (min-width: 1600px) {
-  /* Styles for devices 1600px and up */
-}
+/* @media (min-width: 1600px) {
+}  */
