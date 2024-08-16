@@ -6,9 +6,38 @@
 <link rel="stylesheet" href="https://ravindulankesha.github.io/landingPage.css">
 </head>    
 <body>
-    <div class="ellipse">
+    <div class="header">
+        <div class="ellipse">
+        </div>
+        <div class="text">RAVINDU WEERATHUNGA</div>
+        <div class="threebar hamburger">
+            <div class='bar'></div>
+            <div class='bar'></div>
+            <div class='bar'></div>
+        </div>
+        <div class="block">
+            <div>About Me</div>
+            <div>Skills</div>
+            <div>Projects</div>
+            <div>Contact Me</div>
+        </div>
     </div>
-    <div class="text">RAVINDU WEERATHUNGA</p>
-
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $(document).on('click', '.hamburger', function() {
+        $('.threebar')
+            .removeClass('hamburger')
+            .addClass('cross');
+            $(".block").css('display','flex');
+    });
+
+    $(document).on('click', '.cross', function() {
+        $('.threebar')
+            .removeClass('cross')
+            .addClass('hamburger');
+            $(".block").css('display','none')
+    });
+
+</script>
 </html>
