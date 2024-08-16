@@ -94,6 +94,10 @@ body {
         color: #FFFFFF;
     }
 
+    .show{
+      display: flex !important;
+    }
+
     .block {
         display: none;
         background-color: black;
